@@ -21,7 +21,8 @@ module.exports = {
         loader: 'vue-loader',
         options: {
           loaders: {
-          }
+          },
+          hotReload: false,
           // other vue-loader options go here
         }
       },
